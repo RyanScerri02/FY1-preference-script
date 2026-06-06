@@ -4,7 +4,7 @@
   "filetype": "document",
   "filename": "README",
   "created_at": "2026-06-06T00:59:55.457Z",
-  "updated_at": "2026-06-06T00:59:55.457Z",
+  "updated_at": "2026-06-06T01:02:54.742Z",
   "meta": {
     "location": "/",
     "tags": [],
@@ -27,20 +27,21 @@ It is designed for a Google Sheet where each programme row contains:
 ## Installation
 
 1. Open the Google Sheet.
-2. If the file still says `.XLSX` beside the name, click **File > Save as Google Sheets** first.
-3. Go to **Extensions > Apps Script**.
-4. Paste the contents of [`scripts/placement-preference-sorter.gs`](scripts/placement-preference-sorter.gs) into the Apps Script editor.
+2. If the file still says `.XLSX` beside the name, click **File &gt; Save as Google Sheets** first.
+3. Go to **Extensions &gt; Apps Script**.
+4. Paste the contents of `scripts/placement-preference-sorter.gs` into the Apps Script editor.
 5. Save the project.
 6. Reload the Google Sheet.
-7. Use the new **Placement Sorter** menu.
+7. Give permissions to the script 
+8. Use the new **Placement Sorter** menu.
 
 ## How To Use
 
-1. Click **Placement Sorter > Create / Refresh Setup Sheets**.
+1. Click **Placement Sorter &gt; Create / Refresh Setup Sheets**.
 2. Open the **Sorter Settings** tab and check the settings.
 3. Open the **Preferences** tab.
 4. Reorder column `B` so your favourite placement is at the top and your least favourite is at the bottom.
-5. Click **Placement Sorter > Sort Programmes by Preferences**.
+5. Click **Placement Sorter &gt; Sort Programmes by Preferences**.
 
 ## Non-Coder Settings
 
@@ -105,4 +106,6 @@ Ties are broken by:
 
 Run this on a copy of your spreadsheet first.
 
-Sorting changes the order of rows in the sheet. When **Preserve colours and text styling** is set to `Yes`, the script also moves the row colours and main text styling with each programme row.
+It is highly recommended that you manually review the file before submitting in case of any mismatch in settings vs what is on your version fo the docs :D \
+\
+Best of luck!
